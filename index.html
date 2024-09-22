@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>weather app</title>
+</head>
+<body>
+    <div class="card">
+        <form action="#">
+            <div class="search">
+                <input type="text" placeholder="enter the city here.." autofocus required autocomplete="off">
+                <button><img src="./assets/search.png" alt=""></button>
+            </div>
+        </form>
+        <div class="weather">
+            <img src="./assets/rain.png" alt="">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+        </div>
+        <div class="details">
+            <div class="humidity">
+                <img src="./assets/humidity.png" alt="">
+                <h1></h1>
+                <h2>humidity</h2>
+            </div>
+            <div class="wind">
+                <img src="./assets/wind.png" alt="">
+                <h1></h1>
+                <h2>wind speed</h2>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
